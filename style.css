@@ -1,0 +1,349 @@
+
+* {
+  box-sizing: content-box;
+  overflow-x: hidden;
+
+}
+
+body{
+  background-color: white;
+  width: 100%;
+
+  margin:0;
+  overflow-y: scroll;
+
+  
+
+}
+
+h1{
+  margin-left: 10px;
+  display: block;
+  font-size: auto;
+padding: 10vw;
+  font-family: "Courgette", cursive;
+  font-weight: 500;
+}
+h2{
+  display: block;
+  float: right;
+  margin-right: 20vw;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+}
+
+h3{
+  display: block;
+  font-family: Arial;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px #ddd;
+}
+
+h4{
+  display: inline;
+  margin-left: 20px;
+  font-family: Arial;
+  font-weight: 600;
+  text-shadow: 1px #ffffff;
+  font-size: 20px;
+}
+h5{
+  display: block;
+  font-family: Arial;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 1px #ddd;
+  font-size: 25px;
+   color: #1D1A8B;
+}
+
+p2{
+  display: block;
+  color: #1D1A8B;
+  font-weight: 400;
+  margin-left: 20px;
+  font-family: Arial;
+  font-size: 15px;
+
+}
+
+.logo{
+  display: block;
+justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+  height:auto;
+  width: auto;
+  max-width:300px;
+  max-height: 300px;
+position:static;
+}
+
+
+
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: static;
+  margin: auto;
+  margin-top:10%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50vw;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.mission{
+  background-color:#1D1A8B;
+  display:flex;
+  margin:0 auto;
+  width:100%;
+  justify-content: center;
+  height: auto;
+  box-sizing: border-box;
+   font-weight: 400;
+  font-size: 100%;
+  padding: 20px;
+  color:white;
+  position: static;
+  overflow-y: hidden;
+}
+
+.button {
+  background-color: #FF00B0; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+
+
+
+footer{
+  background-color: #c0c0c0;
+  color: white;
+  padding: 10px;
+   margin: 0px;
+  position: static;
+  bottom: 0;
+  width: auto;
+  margin-bottom: 0; 
+}
+
+
+
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: static;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-tiktok, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.tiktok {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.tiktok:hover, .rounded-social-buttons .social-button.tiktok:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .slideshow-container {
+    max-width: 80vw; /* Use vw/vh units for responsiveness */
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    margin: 20px auto; /* Use smaller margins or percentages */
+  }
+}
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #1D1A8B;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c0c0c0;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
